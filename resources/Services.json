@@ -1,0 +1,197 @@
+{
+    "abaco-daily": {
+        "productId": [
+            "1000007192",
+            "1000007193"
+        ],
+        "serviceCodeId": [
+            "2000006716",
+            "2000006717"
+        ],
+        "partnerId": "1735",
+        "productName": "Abaco",
+        "serviceId": "abaco-daily",
+        "nextRenewalDate": 7,
+        "serviceAllowedAccessUntilDate": 7,
+        "expirationTime": 24,
+        "legacy": {
+            "tarrifs": {
+                "sus_contents02|ssc-h": "1000006115|ssc-h"
+            }
+        },
+        "sms": {
+            "renewal": "Tu suscripcion ABACO ha sido renovada. Para cancelar envia SALIR al 6530. Costo $990 semanal. Ingresa aqui cl.entel.abaco.club/test/"
+        }
+    },
+    "abaco-monthly": {
+        "productId": [
+            "1000006960",
+            "1000006961"
+        ],
+        "serviceCodeId": [
+            "2000006724",
+            "2000006725"
+        ],
+        "partnerId": "59232",
+        "productName": "Abaco",
+        "serviceId": "abaco-monthly",
+        "serviceOfferKey": "1000006125-2000005889",
+        "nextRenewalDate": 30,
+        "serviceAllowedAccessUntilDate": 30,
+        "expirationTime": 24,
+        "legacy": {
+            "tarrifs": {
+                "sus_contents03|ssc-ae": "1000006125|ssc-ae"
+            }
+        },
+        "sms": {
+            "renewal": "Tu suscripcion ABACO ha sido renovada. Para cancelar envia SALIR al 6530. Costo $3.990 mensual. Ingresa aqui cl.entel.abaco.club/"
+        }
+    },
+    "abacokids-daily": {
+        "productId": [
+            "1000007187",
+            "1000007194"
+        ],
+        "serviceCodeId": [
+            "2000007799",
+            "2000007806"
+        ],
+        "partnerId": "1735",
+        "productName": "Abaco",
+        "serviceId": "abacokids-daily",
+        "nextRenewalDate": 7,
+        "serviceAllowedAccessUntilDate": 7,
+        "expirationTime": 24,
+        "legacy": {
+            "tarrifs": {
+                "sus_contents02|ssc-h": "1000006115|ssc-h"
+            }
+        },
+        "sms": {
+            "renewal": "Tu suscripcion ABACO ha sido renovada. Para cancelar envia SALIR al 6530. Costo $990 semanal. Ingresa aqui cl.entel.abaco.club/test/"
+        }
+    },
+    "abacokids-monthly": {
+        "productId": [
+            "1000007806",
+            "1000006961"
+        ],
+        "serviceCodeId": [
+            "2000006724",
+            "2000006725"
+        ],
+        "partnerId": "59232",
+        "productName": "Abaco",
+        "serviceId": "abaco-monthly",
+        "serviceOfferKey": "1000006125-2000005889",
+        "nextRenewalDate": 30,
+        "serviceAllowedAccessUntilDate": 30,
+        "expirationTime": 24,
+        "legacy": {
+            "tarrifs": {
+                "sus_contents03|ssc-ae": "1000006125|ssc-ae"
+            }
+        },
+        "sms": {
+            "renewal": "Tu suscripcion ABACO ha sido renovada. Para cancelar envia SALIR al 6530. Costo $3.990 mensual. Ingresa aqui cl.entel.abaco.club/"
+        }
+    },
+    "pinkcrush-monthly": {
+        "productId": [
+            "1000006449",
+            "1000006450"
+        ],
+        "serviceCodeId": [
+            "2000006213",
+            "2000006214"
+        ],
+        "partnerId": "59232",
+        "productName": "Pinkcrush",
+        "serviceId": "pinkcrush-monthly",
+        "nextRenewalDate": 30,
+        "serviceAllowedAccessUntilDate": 30,
+        "expirationTime": 24,
+        "legacy": {
+            "tarrifs": {
+                "sus_contents10|ssc-ae": "1000006124|ssc-ae"
+            }
+        },
+        "sms": {
+            "renewal": "Tu suscripcion a PINKCRUSH ha sido renovada. Para cancelar envia SALIR al 6530. Costo $3.990 mensual. Ingresa aqui http://cl.entel.pinkcrush.tv"
+        }
+    },
+    "pinkcrush-weekly": {
+        "productId": [
+            "1000007137",
+            "1000007138"
+        ],
+        "serviceCodeId": [
+            "2000006902",
+            "2000006903"
+        ],
+        "partnerId": "59232",
+        "productName": "Pinkcrush",
+        "serviceId": "pinkcrush-weekly",
+        "nextRenewalDate": 7,
+        "serviceAllowedAccessUntilDate": 7,
+        "expirationTime": 24,
+        "legacy": {
+            "tarrifs": {
+                "sus_contents10|ssc-ae": "1000006124|ssc-ae"
+            }
+        },
+        "sms": {
+            "renewal": "Tu suscripcion PINKCRUSH ha sido renovada. Para cancelar envia SALIR al 6530. Costo $990 semanal. Ingresa aqui cl.entel.pinkcrush.tv"
+        }
+    },
+    "sosmujer-monthly": {
+        "productId": [
+            "1000006958",
+            "1000006959"
+        ],
+        "serviceCodeId": [
+            "2000006722",
+            "2000006723"
+        ],
+        "partnerId": "59232",
+        "productName": "SOS Mujer",
+        "serviceId": "sosmujer-monthly",
+        "nextRenewalDate": 30,
+        "serviceAllowedAccessUntilDate": 30,
+        "expirationTime": 24,
+        "legacy": {
+            "tarrifs": {
+                "sus_contents09|ssc-ae": "1000006122|ssc-ae"
+            }
+        },
+        "sms": {
+            "renewal": "Tu suscripcion SOS Mujer ha sido renovada. Para cancelar envia SALIR al 6530. Costo $3.990 mensual. Ingresa aqui cl.entel.sosmujer.tv"
+        }
+    },
+    "sosmujer-weekly": {
+        "productId": [
+            "1000006445",
+            "1000006446"
+        ],
+        "serviceCodeId": [
+            "2000006209",
+            "2000006210"
+        ],
+        "partnerId": "59232",
+        "productName": "SOS Mujer",
+        "serviceId": "sosmujer-weekly",
+        "nextRenewalDate": 7,
+        "serviceAllowedAccessUntilDate": 7,
+        "expirationTime": 24,
+        "legacy": {
+            "tarrifs": {
+                "sus_contents01|ssc-h": "1000006116|ssc-h",
+                "sus_contents01|ssc-t": "1000006116|ssc-t"
+            }
+        },
+        "sms": {
+            "renewal": "Tu suscripcion SOS Mujer ha sido renovada. Para cancelar envia SALIR al 6530. Costo $990 semanal. Ingresa aqui cl.entel.sosmujer.tv"
+        }
+    }
+}
