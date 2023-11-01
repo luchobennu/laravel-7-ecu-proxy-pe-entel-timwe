@@ -1,0 +1,255 @@
+{
+	"info": {
+		"_postman_id": "0a2778b0-e1ff-4a99-a73e-a4492d2021a0",
+		"name": "proxy-apis",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28495367",
+		"_collection_link": "https://orange-astronaut-84103.postman.co/workspace/ecu-proxy-pe-entel-timwe~a0b21277-994d-4cdc-ae9f-9681063c04e4/collection/28495367-0a2778b0-e1ff-4a99-a73e-a4492d2021a0?action=share&source=collection_link&creator=28495367"
+	},
+	"item": [
+		{
+			"name": "/check",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{local}}/check",
+					"host": [
+						"{{local}}"
+					],
+					"path": [
+						"check"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/checkSubscription",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"msisdn\": \"+51923064271\",\n    \"serviceId\": \"abacokids-daily\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{local}}/checkSubscription",
+					"host": [
+						"{{local}}"
+					],
+					"path": [
+						"checkSubscription"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer clientBennuTimweEntelPe:d8358924c98a2a4995cf20720a09e46981664b1f5580502b62c9eef5037ee5dcc2ae8798566df80eeb49e31b911a51ee147caca0df05a39c6aae3304997c62f6",
+						"type": "text"
+					},
+					{
+						"key": "X-Transaction-ID",
+						"value": "",
+						"type": "text"
+					},
+					{
+						"key": "requestAudit",
+						"value": "",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"userId\": \"+51923064271\",\n    \"serviceId\": \"abacokids-daily\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://core.ecu.bennu.ltd/V1/checkSubscription",
+					"protocol": "http",
+					"host": [
+						"core",
+						"ecu",
+						"bennu",
+						"ltd"
+					],
+					"path": [
+						"V1",
+						"checkSubscription"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/V2/checkSubscription",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"msisdn\": \"+51923064271\",\n    \"serviceId\": [\"abacokids-daily\"]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{local}}/V2/checkSubscription",
+					"host": [
+						"{{local}}"
+					],
+					"path": [
+						"V2",
+						"checkSubscription"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/Auth/Generate",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"msisdn\": \"+51923064271\",\n    \"serviceId\": \"abacokids-daily\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{local}}/Auth/Generate",
+					"host": [
+						"{{local}}"
+					],
+					"path": [
+						"Auth",
+						"Generate"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/Auth/Custom/Generate",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"msisdn\": \"+51923064271\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{local}}/Auth/Custom/Generate",
+					"host": [
+						"{{local}}"
+					],
+					"path": [
+						"Auth",
+						"Custom",
+						"Generate"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/Auth/Validate",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"token\": \"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJlY3Utand0LWN1c3RvbSIsInVzZXJJZCI6Iis1MTkyMzA2NDI3MSIsInJlcXVlc3QiOnsidXNlcklkIjoiKzUxOTIzMDY0MjcxIiwiVERYLUlEIjoiLSJ9LCJpYXQiOjE2OTg4NzA2MDYsImV4cCI6MTY5OTEyOTgwNiwidGltZU5leHQiOjcyfQ.GSYDc1c5TabUA_4ibTnaywDIgej1dRc2YVJFtGrMUXs\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{local}}/Auth/Validate",
+					"host": [
+						"{{local}}"
+					],
+					"path": [
+						"Auth",
+						"Validate"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/auth/custom/validate",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJlY3Utand0LWN1c3RvbSIsInVzZXJJZCI6Iis1MTkyMzA2NDI3MSIsInJlcXVlc3QiOnsidXNlcklkIjoiKzUxOTIzMDY0MjcxIiwiVERYLUlEIjoiLSJ9LCJpYXQiOjE2OTg4NzA2MzcsImV4cCI6MTY5OTEyOTgzNywidGltZU5leHQiOjcyfQ.YVKQFf5nJHFRYQoiiw5qFFZUBiQaEC6_dZLsxF7qJU4\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{local}}/auth/custom/validate",
+					"host": [
+						"{{local}}"
+					],
+					"path": [
+						"auth",
+						"custom",
+						"validate"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
